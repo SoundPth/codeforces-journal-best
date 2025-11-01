@@ -1,11 +1,28 @@
 # Работа с STL
 
-C++ - 10e8 операций в секунду; 
+C++ - 10e8 операций в секунду
+
 Python - 10e6 операций в секунду
-Python > C++
+
 
 **O - асимптотика**
+
 *O(x) = y, если найдется C, такая что c * x <= y.*
+
+```cpp
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+
+    vector <int> vec;
+}
+```
 
 
 
