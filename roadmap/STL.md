@@ -25,8 +25,10 @@ int main() {
     cout << "aboba" << '\n';
     // '\n' будет быстрее endl так как не сбрасывает КЭШ вывода, так что пользуемся '\n'
 
-    ifdef 
-    endef
+#ifdef LOCAL
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endef
 
     vector <int> vec;
 }
